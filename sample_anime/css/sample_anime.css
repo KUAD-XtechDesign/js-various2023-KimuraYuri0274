@@ -1,3 +1,10 @@
+body{
+  background-image: url(../../image/back_1.png);
+  background-size: cover;
+  background-attachment: fixed;
+ 
+
+}
 
 
 .pics{
@@ -15,22 +22,43 @@
 }
 
 #pics01{
-  top: 300px;
-  left: 100px;
-  width: 200px;
-  height: 200px;
+  top:500px;
+  left:100px;
+  width:500px;
+  height:500px;
 }
 
 #pics02{
-  top: 300px;
-  left: 400px;
-  width: 200px;
-  height: 200px;
+  top:500px;
+  left:470px;
+  width:500px;
+  height:400px;
+}
+
+#pics03{
+  top:300px;
+  left:100px;
+  width:400px;
+  height:400px;
+}
+
+#pics04{
+  top:500px;
+  left:1000px;
+  width:500px;
+  height:500px;
+}
+
+#pics05{
+  top:350px;
+  left:900px;
+  width:500px;
+  height:500px;
 }
 
 .pics img{
   display: block;
-  width: 200px;
-  height: 200px;
+  width:550px;
+  height:550px;
   position: absolute;
 }

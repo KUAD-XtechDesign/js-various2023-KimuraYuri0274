@@ -1,8 +1,8 @@
 
 let timer;
-let interval = 100;
+let interval = 500;
 
-$(".pics").on("mouseover",function(){
+$(".pics").on("click",function(){
   let pic = $(this).children(".pic")
   let count = 0
   clearInterval(timer)
