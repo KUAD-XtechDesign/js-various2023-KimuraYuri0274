@@ -1,6 +1,6 @@
 
 let timer;
-let interval = 500;
+let interval = 50;
 
 $(".pics").on("click",function(){
   let pic = $(this).children(".pic")
