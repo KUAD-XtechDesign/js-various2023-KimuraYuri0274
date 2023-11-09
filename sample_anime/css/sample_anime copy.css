@@ -1,16 +1,12 @@
 body{
   background-image: url(../../image/back1.PNG);
-  background-size: 1660px;
-  position: fixed;
-  background-position: top;
-  display: flex;
-  justify-content: center;
-  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+ 
 }
 
 .wrapper{
-  width: 1660px;
-  position: absolute;
+  margin: auto;
 }
 
 .pics{
@@ -30,36 +26,36 @@ body{
 }
 
 #pics01{
-  top:631px;
-  left:208px;
-  width:301px;
+  top:664px;
+  left:216px;
+  width:286px;
   
 }
 
 #pics02{
-  top:657px;
-  left:604px;
-  width:213px;
+  top:660px;
+  left:598px;
+  width:253px;
   
 }
 
 #pics03{
-  top:462px;
-  left:416px;
-  width:255px;
+  top:469px;
+  left:434px;
+  width:222px;
  
 }
 
 #pics04{
-  top:624px;
-  left:1071px;
-  width:345px;
+  top:691px;
+  left:1089px;
+  width:373px;
   
 }
 
 #pics05{
   top:463px;
-  left:1023px;
+  left:1030px;
   width:249px;
  
 }
